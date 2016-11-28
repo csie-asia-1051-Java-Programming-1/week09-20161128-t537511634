@@ -15,19 +15,21 @@ public class ex02 {
 
 		Scanner scn = new Scanner(System.in);
 		ArrayList<Student>studList = new ArrayList<Student>();
-		int flag=0;
-		while(flag!=1){
+//		int flag=0;
+//		while(flag!=1){
+		boolean flag=true;
+		while(flag){
 			String name=scn.next(),num=scn.next();
-			studList.add(new Student("name","num"));
+			int c1=scn.nextInt(),e1=scn.nextInt(),m1=scn.nextInt();
+			studList.add(new Student(name,num));
+			studList.get(0).addScore(c1,e1,m1);
 			System.out.println("Continue? Y/N");
-			char yn = scn.next().charAt(0);
-			if(yn=='n'|| yn=='N'){
-				flag++;
+			String yn = scn.next();
+			if(yn.equals("N") || yn.equals("n")){
+				flag = false;
 			}
 		}
-		studList.get(1).showInfo();
-		studList.get(1).addCourse("程式1","1050807");
-		studList.get(1).showInfo();
+		studList.get(0).showInfo();
 	}
 
 }

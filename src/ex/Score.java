@@ -8,9 +8,6 @@ public Score(int c,int e,int m){
 
 public float[] getScore(){
 	float str[]={c1,e1,m1,(float)(c1+e1+m1)/(float)3};
-	for(int i =0;i<4;i++){
-//		return str[i];
-	}
 	return str;
 }
 

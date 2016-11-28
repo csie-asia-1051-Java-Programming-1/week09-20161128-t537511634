@@ -9,8 +9,8 @@ public Student(String name1, String id1){
 	name = name1; id = id1;
 }
 public void showInfo(){
-	System.out.print(name+"\t");
-	System.out.print(id+"\t");
+//	System.out.print(name+"\t");
+//	System.out.print(id+"\t");
 //	System.out.println("#of course: "+couList.size());
 //	for (int i =0;i<couList.size();i++){
 //		System.out.println("course name:"+couList.get(i).getName());
@@ -18,7 +18,6 @@ public void showInfo(){
 	float str[]=new float[4];
 	for (int i =0;i<couList.size();i++){
 		str = scList.get(i).getScore();
-//	int str[]=scList.get(i).getScore();
 }
 	for (int i =0;i<couList.size();i++){
 		System.out.print(str[i]+"\t");
