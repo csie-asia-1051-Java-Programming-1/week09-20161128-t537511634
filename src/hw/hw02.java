@@ -4,8 +4,10 @@ package hw;
 數列一:1 2 4 7 11 16 22 29…
 數列二:1 2 2 3 3 3 4 4 4 4 5 5 5 5 5...
  * Date: 2016/11/28
- * Author: 1050210XX 周永振老師
+ * Author: 105021029 汪元浩
  */
+import java.util.*;
+
 public class hw02 {
 
 	public static void main(String[] args) {
