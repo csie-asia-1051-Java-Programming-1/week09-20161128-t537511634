@@ -1,4 +1,4 @@
-package ex;
+package hw;
 
 import java.util.*;
 

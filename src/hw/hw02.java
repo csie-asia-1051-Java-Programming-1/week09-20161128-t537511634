@@ -12,6 +12,26 @@ public class hw02 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		Scanner scn= new Scanner(System.in);
+		int n = scn.nextInt(),sum=1,sum1=1,i=0,c=0,r=1,flag=0;;
+		while(sum<=n){
+			sum+=i;
+			System.out.print(sum+"\t");
+			i++;
+		}
+		System.out.println();
+		while(flag!=1){
+			for(int i1 = 0;i1<r;i1++){
+				System.out.print(sum1+"\t");
+				c++;
+				if(c>n){
+					flag++;
+					break;
+				}
+			}
+			sum1++;
+			r++;
+		}
 
 	}
 

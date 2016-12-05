@@ -1,4 +1,4 @@
-package ex;
+package hw;
 
 public class Score {
 private int c1=0,e1=0,m1=0;
