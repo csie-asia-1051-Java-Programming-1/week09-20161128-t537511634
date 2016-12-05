@@ -11,7 +11,19 @@ public class hw03 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		Scanner scn= new Scanner(System.in);
+		ArrayList<Student>studList= new ArrayList<Student>();
+		int flag = 0,flag1 = 0;
+		while(flag!=1){
+			int id= scn.nextInt();
+			String name=scn.next(),cn=scn.next();
+			int ci=scn.nextInt(),cs=scn.nextInt();
+			String ct=scn.next();
+			int num=scn.nextInt();
+			studList.add(new Student(name,id));
+			while(flag1!=1)
+			studList.get()addCourse(name1,id1,cs1,teacher1,sc1)
+		}
 	}
 
 }

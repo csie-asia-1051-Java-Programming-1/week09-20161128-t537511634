@@ -3,9 +3,10 @@ package ex;
 import java.util.*;
 
 public class Student {
-	private String id, name;
-	private ArrayList<Course> couList = new ArrayList<Course>();
-	private ArrayList<Score> scList = new ArrayList<Score>();
+	 String id, name;
+	 int c,e,m;
+	 ArrayList<Course> couList = new ArrayList<Course>();
+	 ArrayList<Score> scList = new ArrayList<Score>();
 
 	public Student(String name1, String id1) {
 		name = name1;
@@ -21,7 +22,7 @@ public class Student {
 		// }
 		float[] s = new float[4];
 		for(int i = 0;i<scList.size();i++){
-		s = scList.get(0).getScore();}
+		 s = scList.get(0).getScore();}
 		for (int i = 0; i < 4; i++) {
 			System.out.print(s[i] + "\t");
 		}
@@ -39,7 +40,7 @@ public class Student {
 		couList.add(new Course(name1, id1));
 	}
 
-	public void addScore(int c, int e, int m) {
+	 void addScore(int c1, int e1, int m) {
 		scList.add(new Score(c, e, m));
 	}
 
